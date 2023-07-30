@@ -55,8 +55,8 @@ const App = () => {
   }
 
   const clearItems = () => {
-    const resp = localStorage.clear()
-    setItems(resp)
+    localStorage.clear()
+    setItems([])
   }
 
   return (
